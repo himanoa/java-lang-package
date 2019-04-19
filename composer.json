@@ -9,6 +9,7 @@
             "name": "memory"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2",
         "ext-zip": "*",
