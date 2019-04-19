@@ -1,6 +1,6 @@
 {
     "name": "php-java/java-lang-package",
-    "description": "java.lang.* package",
+    "description": "java.lang.* package on PHPJava",
     "type": "library",
     "license": "MIT",
     "version": "0.0.1-dev",
