@@ -3,13 +3,12 @@
     "description": "java.lang.* package",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.1-dev",
     "authors": [
         {
             "name": "memory"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2",
         "ext-zip": "*",
