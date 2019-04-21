@@ -23,15 +23,15 @@ class _String extends _Object
         return $this->length() === 0;
     }
 
-    public function equals($object): bool
+    public function equals($a = null)
     {
         if (!($this->object instanceof _Utf8)) {
             return false;
         }
-        if ($object instanceof _String) {
-            return $this->toString() === $object->toString();
+        if ($a instanceof _String) {
+            return $this->toString() === $a->toString();
         }
-        return $this->toString() === $object;
+        return $this->toString() === $a;
     }
 
     public function toString(): string
