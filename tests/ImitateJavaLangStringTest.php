@@ -20,7 +20,7 @@ class ImitateJavaLangStringTest extends Base
             ->call(
                 'charAtIndex',
                 'abc',
-                1,
+                1
             );
         $value = ob_get_clean();
         $this->assertEquals('b', $value);
