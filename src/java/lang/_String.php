@@ -698,6 +698,9 @@ class _String extends _Object
         throw new NotImplementedException(__METHOD__);
     }
 
+    /**
+     * @return string
+     */
     public function __toString(): string
     {
         if (!($this->object instanceof _Utf8)) {
