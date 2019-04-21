@@ -2,7 +2,10 @@
 namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
+use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
 use PHPJava\Kernel\Structures\_Utf8;
+use PHPJava\Kernel\Types\_Char;
+use PHPJava\Utilities\Extractor;
 
 // use PHPJava\Imitation\java\io\Serializable;
 // use PHPJava\Imitation\java\lang\CharSequence;
@@ -39,13 +42,20 @@ class _String extends _Object
      * Returns the char value at the specified index.
      *
      * @param mixed $a
-     * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#charAt
+     * @return _String
+     * @throws IndexOutOfBoundsException
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#charAt(int)
      */
-    public function charAt($a = null)
+    public function charAt($a)
     {
-        throw new NotImplementedException(__METHOD__);
+        $index = Extractor::realValue($a);
+        $length = $this->length();
+
+        if ($index < 0 || $length <= $index) {
+            throw new IndexOutOfBoundsException("String index out of range: {$index}");
+        }
+
+        return new _Char($this->toString()[$index]);
     }
 
     /**
@@ -648,12 +658,11 @@ class _String extends _Object
     /**
      * This object (which is already a string!)
      *
-     * @param mixed $a
      * @return mixed
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
-    public function toString($a = null)
+    public function toString(): string
     {
         return $this->__toString();
     }
