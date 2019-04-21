@@ -75,6 +75,23 @@ class ImitateJavaLangStringTest extends Base
         $this->assertEquals('abcdef', $value);
     }
 
+    public function testReplace()
+    {
+        ob_start();
+        $this->initiatedJavaClasses['ImitateJavaLangStringTest']
+            ->getInvoker()
+            ->getStatic()
+            ->getMethods()
+            ->call(
+                'replace',
+                'abcabc',
+                'b',
+                'c'
+            );
+        $value = ob_get_clean();
+        $this->assertEquals('accacc', $value);
+    }
+
     public function testToLowerCase()
     {
         ob_start();

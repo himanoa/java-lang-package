@@ -493,12 +493,11 @@ class _String extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#replace
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#replace(java.lang.CharSequence,java.lang.CharSequence)
      */
     public function replace($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return new static(str_replace($a, $b, $this));
     }
 
     /**
