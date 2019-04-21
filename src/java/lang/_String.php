@@ -3,6 +3,7 @@ namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
 use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
+use PHPJava\Kernel\Types\_Char;
 use PHPJava\Kernel\Structures\_Utf8;
 
 // use PHPJava\Imitation\java\io\Serializable;
@@ -39,21 +40,21 @@ class _String extends _Object
     /**
      * Returns the char value at the specified index.
      *
-     * @param int $a
+     * @param mixed $a
      * @return _String
      * @throws IndexOutOfBoundsException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#charAt(int)
      */
     public function charAt($a)
     {
-        $index = $a;
+        $index = $a->getValue();
         $length = $this->length();
 
-        if ($length < 0 || $length >= $index) {
+        if ($length < 0 || $length <= $index) {
             throw new IndexOutOfBoundsException("String index out of range: {$index}");
         }
 
-        return new static($this->toString()[$index]);
+        return new _Char($this->toString()[$index]);
     }
 
     /**
