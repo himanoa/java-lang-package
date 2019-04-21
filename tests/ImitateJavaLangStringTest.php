@@ -3,6 +3,7 @@ namespace PHPJava\Tests;
 
 use PHPJava\Core\JavaArchive;
 use PHPUnit\Framework\TestCase;
+use PHPJava\Imitation\java\lang\IllegalArgumentException;
 use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
 
 class ImitateJavaLangStringTest extends Base
@@ -73,5 +74,21 @@ class ImitateJavaLangStringTest extends Base
             );
         $value = ob_get_clean();
         $this->assertEquals('abcabcabc', $value);
+    }
+
+    public function testThrowsRepeatNegativeCount()
+    {
+        $this->expectException(IllegalArgumentException::class);
+        $this->expectExceptionMessage('count is negative: -1');
+
+        $this->initiatedJavaClasses['ImitateJavaLangStringTest']
+            ->getInvoker()
+            ->getStatic()
+            ->getMethods()
+            ->call(
+                'repeat',
+                'abc',
+                -1
+            );
     }
 }

@@ -2,6 +2,7 @@
 namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
+use PHPJava\Imitation\java\lang\IllegalArgumentException;
 use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
 use PHPJava\Kernel\Structures\_Utf8;
 use PHPJava\Kernel\Types\_Char;
@@ -484,6 +485,11 @@ class _String extends _Object
     public function repeat($a = null)
     {
         $count = Extractor::realValue($a);
+
+        if ($count < 0) {
+            throw new IllegalArgumentException("count is negative: {$count}");
+        }
+
         return new static(str_repeat($this, $count));
     }
 
