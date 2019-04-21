@@ -3,6 +3,16 @@ namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Kernel\Structures\_Utf8;
 
+// use PHPJava\Imitation\java\io\Serializable;
+// use PHPJava\Imitation\java\lang\CharSequence;
+// use PHPJava\Imitation\java\util\Comparator;
+// use PHPJava\Imitation\java\util\stream\IntStream;
+
+/**
+ * The `String` class was auto generated.
+ *
+ * @parent \PHPJava\Imitation\java\lang\_Object
+ */
 class _String extends _Object
 {
     private $object = null;
