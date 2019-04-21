@@ -3,6 +3,7 @@ namespace PHPJava\Tests;
 
 use PHPJava\Core\JavaArchive;
 use PHPUnit\Framework\TestCase;
+use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
 
 class ImitateJavaLangStringTest extends Base
 {
@@ -28,33 +29,33 @@ class ImitateJavaLangStringTest extends Base
 
     public function testThrowsCharAtNegativeIndex()
     {
-        ob_start();
+        $this->expectException(IndexOutOfBoundsException::class);
+        $this->expectExceptionMessage('String index out of range: -1');
+
         $this->initiatedJavaClasses['ImitateJavaLangStringTest']
             ->getInvoker()
             ->getStatic()
             ->getMethods()
             ->call(
-                'throwsCharAtWrongIndex',
+                'charAtIndex',
                 'abc',
                 -1
             );
-        $value = ob_get_clean();
-        $this->assertEquals('String index out of range: -1', $value);
     }
 
     public function testThrowsCharAtOutOfRangeIndex()
     {
-        ob_start();
+        $this->expectException(IndexOutOfBoundsException::class);
+        $this->expectExceptionMessage('String index out of range: 3');
+
         $this->initiatedJavaClasses['ImitateJavaLangStringTest']
             ->getInvoker()
             ->getStatic()
             ->getMethods()
             ->call(
-                'throwsCharAtWrongIndex',
+                'charAtIndex',
                 'abc',
                 3
             );
-        $value = ob_get_clean();
-        $this->assertEquals('String index out of range: 3', $value);
     }
 }
