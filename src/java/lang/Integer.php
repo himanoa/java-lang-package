@@ -59,7 +59,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#bitCount
      */
-    public static function bitCount($a = null)
+    public static function static_bitCount($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -86,7 +86,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compare
      */
-    public static function compare($a = null, $b = null)
+    public static function static_compare($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -113,7 +113,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compareUnsigned
      */
-    public static function compareUnsigned($a = null, $b = null)
+    public static function static_compareUnsigned($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -126,7 +126,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#decode
      */
-    public static function decode($a = null)
+    public static function static_decode($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -140,7 +140,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#divideUnsigned
      */
-    public static function divideUnsigned($a = null, $b = null)
+    public static function static_divideUnsigned($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -195,7 +195,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getInteger
      */
-    public static function getInteger($a = null, $b = null)
+    public static function static_getInteger($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -209,7 +209,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#hashCode
      */
-    public static function hashCode($a = null)
+    public static function static_hashCode($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -222,7 +222,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#highestOneBit
      */
-    public static function highestOneBit($a = null)
+    public static function static_highestOneBit($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -261,7 +261,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#lowestOneBit
      */
-    public static function lowestOneBit($a = null)
+    public static function static_lowestOneBit($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -275,7 +275,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#max
      */
-    public static function max($a = null, $b = null)
+    public static function static_max($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -289,7 +289,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#min
      */
-    public static function min($a = null, $b = null)
+    public static function static_min($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -302,7 +302,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#numberOfLeadingZeros
      */
-    public static function numberOfLeadingZeros($a = null)
+    public static function static_numberOfLeadingZeros($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -315,7 +315,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#numberOfTrailingZeros
      */
-    public static function numberOfTrailingZeros($a = null)
+    public static function static_numberOfTrailingZeros($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -333,7 +333,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseInt
      */
-    public static function parseInt($a = null, $b = null, $c = null, $d = null)
+    public static function static_parseInt($a = null, $b = null, $c = null, $d = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -351,7 +351,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseUnsignedInt
      */
-    public static function parseUnsignedInt($a = null, $b = null, $c = null, $d = null)
+    public static function static_parseUnsignedInt($a = null, $b = null, $c = null, $d = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -365,7 +365,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#remainderUnsigned
      */
-    public static function remainderUnsigned($a = null, $b = null)
+    public static function static_remainderUnsigned($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -378,7 +378,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#reverse
      */
-    public static function reverse($a = null)
+    public static function static_reverse($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -391,7 +391,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#reverseBytes
      */
-    public static function reverseBytes($a = null)
+    public static function static_reverseBytes($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -405,7 +405,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#rotateLeft
      */
-    public static function rotateLeft($a = null, $b = null)
+    public static function static_rotateLeft($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -419,7 +419,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#rotateRight
      */
-    public static function rotateRight($a = null, $b = null)
+    public static function static_rotateRight($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -445,7 +445,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#signum
      */
-    public static function signum($a = null)
+    public static function static_signum($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -459,7 +459,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sum
      */
-    public static function sum($a = null, $b = null)
+    public static function static_sum($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -472,7 +472,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toBinaryString
      */
-    public static function toBinaryString($a = null)
+    public static function static_toBinaryString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -485,7 +485,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toHexString
      */
-    public static function toHexString($a = null)
+    public static function static_toHexString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -498,7 +498,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toOctalString
      */
-    public static function toOctalString($a = null)
+    public static function static_toOctalString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -514,7 +514,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
-    public static function toString($a = null, $b = null)
+    public static function static_toString($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -527,7 +527,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toUnsignedLong
      */
-    public static function toUnsignedLong($a = null)
+    public static function static_toUnsignedLong($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -542,7 +542,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toUnsignedString
      */
-    public static function toUnsignedString($a = null, $b = null)
+    public static function static_toUnsignedString($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -558,7 +558,7 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#valueOf
      */
-    public static function valueOf($a = null, $b = null)
+    public static function static_valueOf($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

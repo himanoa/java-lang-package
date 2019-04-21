@@ -153,7 +153,7 @@ class Package extends _Object /* implements AnnotatedElement, Annotation */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getPackage
      */
-    public static function getPackage($a = null)
+    public static function static_getPackage($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -166,7 +166,7 @@ class Package extends _Object /* implements AnnotatedElement, Annotation */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getPackages
      */
-    public static function getPackages($a = null)
+    public static function static_getPackages($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

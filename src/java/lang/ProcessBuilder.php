@@ -149,7 +149,7 @@ class ProcessBuilder extends _Object /* implements _List */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#startPipeline
      */
-    public static function startPipeline($a = null)
+    public static function static_startPipeline($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

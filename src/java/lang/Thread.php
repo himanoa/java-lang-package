@@ -44,7 +44,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#activeCount
      */
-    public static function activeCount($a = null)
+    public static function static_activeCount($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -96,7 +96,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#currentThread
      */
-    public static function currentThread($a = null)
+    public static function static_currentThread($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -109,7 +109,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#dumpStack
      */
-    public static function dumpStack($a = null)
+    public static function static_dumpStack($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -122,7 +122,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#enumerate
      */
-    public static function enumerate($a = null)
+    public static function static_enumerate($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -135,7 +135,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getAllStackTraces
      */
-    public static function getAllStackTraces($a = null)
+    public static function static_getAllStackTraces($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -161,7 +161,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getDefaultUncaughtExceptionHandler
      */
-    public static function getDefaultUncaughtExceptionHandler($a = null)
+    public static function static_getDefaultUncaughtExceptionHandler($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -265,7 +265,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#holdsLock
      */
-    public static function holdsLock($a = null)
+    public static function static_holdsLock($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -291,7 +291,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#interrupted
      */
-    public static function interrupted($a = null)
+    public static function static_interrupted($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -359,7 +359,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#onSpinWait
      */
-    public static function onSpinWait($a = null)
+    public static function static_onSpinWait($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -424,7 +424,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setDefaultUncaughtExceptionHandler
      */
-    public static function setDefaultUncaughtExceptionHandler($a = null)
+    public static function static_setDefaultUncaughtExceptionHandler($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -478,7 +478,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sleep
      */
-    public static function sleep($a = null, $b = null)
+    public static function static_sleep($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -543,7 +543,7 @@ class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#yield
      */
-    public static function yield($a = null)
+    public static function static_yield($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

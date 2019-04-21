@@ -37,7 +37,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#abs
      */
-    public static function abs($a = null)
+    public static function static_abs($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -50,7 +50,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#acos
      */
-    public static function acos($a = null)
+    public static function static_acos($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -65,7 +65,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#addExact
      */
-    public static function addExact($a = null, $b = null)
+    public static function static_addExact($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -78,7 +78,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#asin
      */
-    public static function asin($a = null)
+    public static function static_asin($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -91,7 +91,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#atan
      */
-    public static function atan($a = null)
+    public static function static_atan($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -105,7 +105,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#atan2
      */
-    public static function atan2($a = null, $b = null)
+    public static function static_atan2($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -118,7 +118,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#cbrt
      */
-    public static function cbrt($a = null)
+    public static function static_cbrt($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -131,7 +131,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#ceil
      */
-    public static function ceil($a = null)
+    public static function static_ceil($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -146,7 +146,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#copySign
      */
-    public static function copySign($a = null, $b = null)
+    public static function static_copySign($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -159,7 +159,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#cos
      */
-    public static function cos($a = null)
+    public static function static_cos($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -172,7 +172,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#cosh
      */
-    public static function cosh($a = null)
+    public static function static_cosh($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -185,7 +185,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#exp
      */
-    public static function exp($a = null)
+    public static function static_exp($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -198,7 +198,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#expm1
      */
-    public static function expm1($a = null)
+    public static function static_expm1($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -211,7 +211,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floor
      */
-    public static function floor($a = null)
+    public static function static_floor($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -227,7 +227,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floorDiv
      */
-    public static function floorDiv($a = null, $b = null)
+    public static function static_floorDiv($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -243,7 +243,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floorMod
      */
-    public static function floorMod($a = null, $b = null)
+    public static function static_floorMod($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -259,7 +259,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#fma
      */
-    public static function fma($a = null, $b = null, $c = null)
+    public static function static_fma($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -273,7 +273,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getExponent
      */
-    public static function getExponent($a = null)
+    public static function static_getExponent($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -287,7 +287,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#hypot
      */
-    public static function hypot($a = null, $b = null)
+    public static function static_hypot($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -301,7 +301,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#IEEEremainder
      */
-    public static function IEEEremainder($a = null, $b = null)
+    public static function static_IEEEremainder($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -314,7 +314,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#log
      */
-    public static function log($a = null)
+    public static function static_log($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -327,7 +327,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#log10
      */
-    public static function log10($a = null)
+    public static function static_log10($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -340,7 +340,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#log1p
      */
-    public static function log1p($a = null)
+    public static function static_log1p($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -357,7 +357,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#max
      */
-    public static function max($a = null, $b = null)
+    public static function static_max($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -374,7 +374,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#min
      */
-    public static function min($a = null, $b = null)
+    public static function static_min($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -390,7 +390,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#multiplyExact
      */
-    public static function multiplyExact($a = null, $b = null)
+    public static function static_multiplyExact($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -404,7 +404,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#multiplyFull
      */
-    public static function multiplyFull($a = null, $b = null)
+    public static function static_multiplyFull($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -418,7 +418,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#multiplyHigh
      */
-    public static function multiplyHigh($a = null, $b = null)
+    public static function static_multiplyHigh($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -433,7 +433,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#nextAfter
      */
-    public static function nextAfter($a = null, $b = null)
+    public static function static_nextAfter($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -447,7 +447,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#nextDown
      */
-    public static function nextDown($a = null)
+    public static function static_nextDown($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -461,7 +461,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#nextUp
      */
-    public static function nextUp($a = null)
+    public static function static_nextUp($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -475,7 +475,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#pow
      */
-    public static function pow($a = null, $b = null)
+    public static function static_pow($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -488,7 +488,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#random
      */
-    public static function random($a = null)
+    public static function static_random($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -501,7 +501,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#rint
      */
-    public static function rint($a = null)
+    public static function static_rint($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -515,7 +515,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#round
      */
-    public static function round($a = null)
+    public static function static_round($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -530,7 +530,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#scalb
      */
-    public static function scalb($a = null, $b = null)
+    public static function static_scalb($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -544,7 +544,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#signum
      */
-    public static function signum($a = null)
+    public static function static_signum($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -557,7 +557,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sin
      */
-    public static function sin($a = null)
+    public static function static_sin($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -570,7 +570,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sinh
      */
-    public static function sinh($a = null)
+    public static function static_sinh($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -583,7 +583,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sqrt
      */
-    public static function sqrt($a = null)
+    public static function static_sqrt($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -598,7 +598,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#subtractExact
      */
-    public static function subtractExact($a = null, $b = null)
+    public static function static_subtractExact($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -611,7 +611,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#tan
      */
-    public static function tan($a = null)
+    public static function static_tan($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -624,7 +624,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#tanh
      */
-    public static function tanh($a = null)
+    public static function static_tanh($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -637,7 +637,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toDegrees
      */
-    public static function toDegrees($a = null)
+    public static function static_toDegrees($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -650,7 +650,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toIntExact
      */
-    public static function toIntExact($a = null)
+    public static function static_toIntExact($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -663,7 +663,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toRadians
      */
-    public static function toRadians($a = null)
+    public static function static_toRadians($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -677,7 +677,7 @@ class StrictMath extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#ulp
      */
-    public static function ulp($a = null)
+    public static function static_ulp($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

@@ -115,7 +115,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compare
      */
-    public static function compare($a = null, $b = null)
+    public static function static_compare($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -167,7 +167,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floatToIntBits
      */
-    public static function floatToIntBits($a = null)
+    public static function static_floatToIntBits($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -180,7 +180,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floatToRawIntBits
      */
-    public static function floatToRawIntBits($a = null)
+    public static function static_floatToRawIntBits($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -207,7 +207,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#hashCode
      */
-    public static function hashCode($a = null)
+    public static function static_hashCode($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -220,7 +220,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#intBitsToFloat
      */
-    public static function intBitsToFloat($a = null)
+    public static function static_intBitsToFloat($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -246,7 +246,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isFinite
      */
-    public static function isFinite($a = null)
+    public static function static_isFinite($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -260,7 +260,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isInfinite
      */
-    public static function isInfinite($a = null)
+    public static function static_isInfinite($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -274,7 +274,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isNaN
      */
-    public static function isNaN($a = null)
+    public static function static_isNaN($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -301,7 +301,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#max
      */
-    public static function max($a = null, $b = null)
+    public static function static_max($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -315,7 +315,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#min
      */
-    public static function min($a = null, $b = null)
+    public static function static_min($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -328,7 +328,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseFloat
      */
-    public static function parseFloat($a = null)
+    public static function static_parseFloat($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -355,7 +355,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sum
      */
-    public static function sum($a = null, $b = null)
+    public static function static_sum($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -368,7 +368,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toHexString
      */
-    public static function toHexString($a = null)
+    public static function static_toHexString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -382,7 +382,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
-    public static function toString($a = null)
+    public static function static_toString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -396,7 +396,7 @@ class _Float extends Number /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#valueOf
      */
-    public static function valueOf($a = null)
+    public static function static_valueOf($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

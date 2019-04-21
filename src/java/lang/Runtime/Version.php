@@ -166,7 +166,7 @@ class Version extends _Object /* implements Comparable, _List */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parse
      */
-    public static function parse($a = null)
+    public static function static_parse($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

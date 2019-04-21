@@ -18,7 +18,7 @@ interface ProcessHandle
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#allProcesses
      * @NotImplemented
      */
-    // public static function allProcesses($a = null)
+    // public static function static_allProcesses($a = null)
 
     /**
      * Returns a snapshot of the current direct children of the process.
@@ -51,7 +51,7 @@ interface ProcessHandle
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#current
      * @NotImplemented
      */
-    // public static function current($a = null)
+    // public static function static_current($a = null)
 
     /**
      * Returns a snapshot of the descendants of the process.
@@ -139,7 +139,7 @@ interface ProcessHandle
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#of
      * @NotImplemented
      */
-    // public static function of($a = null)
+    // public static function static_of($a = null)
 
     /**
      * Returns a CompletableFuture&lt;ProcessHandle&gt; for the termination of the process.
