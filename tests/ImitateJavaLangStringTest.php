@@ -58,4 +58,20 @@ class ImitateJavaLangStringTest extends Base
                 3
             );
     }
+
+    public function testConcat()
+    {
+        ob_start();
+        $this->initiatedJavaClasses['ImitateJavaLangStringTest']
+            ->getInvoker()
+            ->getStatic()
+            ->getMethods()
+            ->call(
+                'concat',
+                'abc',
+                'def'
+            );
+        $value = ob_get_clean();
+        $this->assertEquals('abcdef', $value);
+    }
 }
