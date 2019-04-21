@@ -3,8 +3,9 @@ namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
 use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
-use PHPJava\Kernel\Types\_Char;
 use PHPJava\Kernel\Structures\_Utf8;
+use PHPJava\Kernel\Types\_Char;
+use PHPJava\Utilities\Extractor;
 
 // use PHPJava\Imitation\java\io\Serializable;
 // use PHPJava\Imitation\java\lang\CharSequence;
@@ -47,7 +48,7 @@ class _String extends _Object
      */
     public function charAt($a)
     {
-        $index = $a->getValue();
+        $index = Extractor::realValue($a);
         $length = $this->length();
 
         if ($length < 0 || $length <= $index) {
