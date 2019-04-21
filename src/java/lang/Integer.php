@@ -3,6 +3,7 @@ namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
 use PHPJava\Imitation\java\lang\Number;
+use PHPJava\Kernel\Types\_Int;
 
 // use PHPJava\Imitation\java\io\Serializable;
 // use PHPJava\Imitation\java\lang\Comparable;
@@ -335,7 +336,12 @@ class Integer extends Number /* implements Serializable, Comparable */
      */
     public static function static_parseInt($a = null, $b = null, $c = null, $d = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $number = $a;
+        $radix = $b;
+        if ($radix !== null) {
+            $number = base_convert($number, $radix, 10);
+        }
+        return new _Int((string) $number);
     }
 
     /**
