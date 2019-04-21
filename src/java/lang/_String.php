@@ -656,12 +656,11 @@ class _String extends _Object
     /**
      * This object (which is already a string!)
      *
-     * @param mixed $a
      * @return mixed
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
-    public function toString($a = null)
+    public function toString(): string
     {
         return $this->__toString();
     }
