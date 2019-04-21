@@ -8,16 +8,7 @@
     </rule>
 
     <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
-        <exclude-pattern>./src/kernel/types</exclude-pattern>
-        <exclude-pattern>./src/kernel/mnemonics</exclude-pattern>
-        <exclude-pattern>./src/kernel/structures</exclude-pattern>
-        <exclude-pattern>./src/imitation/java/lang/_Object.php</exclude-pattern>
-        <exclude-pattern>./src/imitation/java/lang/_String.php</exclude-pattern>
-        <exclude-pattern>./src/imitation/phpjava/extended/_Object</exclude-pattern>
-    </rule>
-
-    <rule ref="Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase">
-        <exclude-pattern>./src/kernel/maps</exclude-pattern>
+        <exclude-pattern>./src/java/lang/*</exclude-pattern>
     </rule>
 
     <arg name="colors"/>
