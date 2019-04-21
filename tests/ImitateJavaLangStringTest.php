@@ -58,4 +58,20 @@ class ImitateJavaLangStringTest extends Base
                 3
             );
     }
+
+    public function testRepeat()
+    {
+        ob_start();
+        $this->initiatedJavaClasses['ImitateJavaLangStringTest']
+            ->getInvoker()
+            ->getStatic()
+            ->getMethods()
+            ->call(
+                'repeat',
+                'abc',
+                3
+            );
+        $value = ob_get_clean();
+        $this->assertEquals('abcabcabc', $value);
+    }
 }

@@ -479,12 +479,12 @@ class _String extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#repeat
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#repeat(int)
      */
     public function repeat($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $count = Extractor::realValue($a);
+        return new static(str_repeat($this, $count));
     }
 
     /**
