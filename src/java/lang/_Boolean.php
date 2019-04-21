@@ -58,7 +58,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compare
      */
-    public static function compare($a = null, $b = null)
+    public static function static_compare($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -97,7 +97,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getBoolean
      */
-    public static function getBoolean($a = null)
+    public static function static_getBoolean($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -111,7 +111,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#hashCode
      */
-    public static function hashCode($a = null)
+    public static function static_hashCode($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -125,7 +125,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#logicalAnd
      */
-    public static function logicalAnd($a = null, $b = null)
+    public static function static_logicalAnd($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -139,7 +139,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#logicalOr
      */
-    public static function logicalOr($a = null, $b = null)
+    public static function static_logicalOr($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -153,7 +153,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#logicalXor
      */
-    public static function logicalXor($a = null, $b = null)
+    public static function static_logicalXor($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -166,7 +166,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseBoolean
      */
-    public static function parseBoolean($a = null)
+    public static function static_parseBoolean($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -180,7 +180,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
-    public static function toString($a = null)
+    public static function static_toString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -194,7 +194,7 @@ class _Boolean extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#valueOf
      */
-    public static function valueOf($a = null)
+    public static function static_valueOf($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

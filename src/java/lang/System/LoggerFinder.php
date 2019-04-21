@@ -51,7 +51,7 @@ class LoggerFinder extends _Object /* implements Logger */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getLoggerFinder
      */
-    public static function getLoggerFinder($a = null)
+    public static function static_getLoggerFinder($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

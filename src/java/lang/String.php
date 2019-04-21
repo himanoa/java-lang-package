@@ -180,7 +180,7 @@ class String extends _Object /* implements Serializable, CharSequence, Comparato
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#copyValueOf
      */
-    public static function copyValueOf($a = null, $b = null, $c = null)
+    public static function static_copyValueOf($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -235,7 +235,7 @@ class String extends _Object /* implements Serializable, CharSequence, Comparato
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#format
      */
-    public static function format($a = null, $b = null, $c = null)
+    public static function static_format($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -354,7 +354,7 @@ class String extends _Object /* implements Serializable, CharSequence, Comparato
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#join
      */
-    public static function join($a = null, $b = null)
+    public static function static_join($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -686,7 +686,7 @@ class String extends _Object /* implements Serializable, CharSequence, Comparato
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#valueOf
      */
-    public static function valueOf($a = null, $b = null, $c = null)
+    public static function static_valueOf($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

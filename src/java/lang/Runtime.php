@@ -105,7 +105,7 @@ class Runtime extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getRuntime
      */
-    public static function getRuntime($a = null)
+    public static function static_getRuntime($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -235,7 +235,7 @@ class Runtime extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#version
      */
-    public static function version($a = null)
+    public static function static_version($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

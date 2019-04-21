@@ -249,7 +249,7 @@ class ClassLoader extends _Object /* implements Enumeration, Stream */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getPlatformClassLoader
      */
-    public static function getPlatformClassLoader($a = null)
+    public static function static_getPlatformClassLoader($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -301,7 +301,7 @@ class ClassLoader extends _Object /* implements Enumeration, Stream */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getSystemClassLoader
      */
-    public static function getSystemClassLoader($a = null)
+    public static function static_getSystemClassLoader($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -314,7 +314,7 @@ class ClassLoader extends _Object /* implements Enumeration, Stream */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getSystemResource
      */
-    public static function getSystemResource($a = null)
+    public static function static_getSystemResource($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -327,7 +327,7 @@ class ClassLoader extends _Object /* implements Enumeration, Stream */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getSystemResourceAsStream
      */
-    public static function getSystemResourceAsStream($a = null)
+    public static function static_getSystemResourceAsStream($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -340,7 +340,7 @@ class ClassLoader extends _Object /* implements Enumeration, Stream */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getSystemResources
      */
-    public static function getSystemResources($a = null)
+    public static function static_getSystemResources($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -394,7 +394,7 @@ class ClassLoader extends _Object /* implements Enumeration, Stream */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#registerAsParallelCapable
      */
-    public static function registerAsParallelCapable($a = null)
+    public static function static_registerAsParallelCapable($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

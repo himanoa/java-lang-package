@@ -23,7 +23,7 @@ class ModuleLayer extends _Object /* implements _Function, Set */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#boot
      */
-    public static function boot($a = null)
+    public static function static_boot($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -53,7 +53,7 @@ class ModuleLayer extends _Object /* implements _Function, Set */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#defineModules
      */
-    public static function defineModules($a = null, $b = null, $c = null, $d = null)
+    public static function static_defineModules($a = null, $b = null, $c = null, $d = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -69,7 +69,7 @@ class ModuleLayer extends _Object /* implements _Function, Set */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#defineModulesWithManyLoaders
      */
-    public static function defineModulesWithManyLoaders($a = null, $b = null, $c = null)
+    public static function static_defineModulesWithManyLoaders($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -85,7 +85,7 @@ class ModuleLayer extends _Object /* implements _Function, Set */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#defineModulesWithOneLoader
      */
-    public static function defineModulesWithOneLoader($a = null, $b = null, $c = null)
+    public static function static_defineModulesWithOneLoader($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -98,7 +98,7 @@ class ModuleLayer extends _Object /* implements _Function, Set */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#empty
      */
-    public static function empty($a = null)
+    public static function static_empty($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

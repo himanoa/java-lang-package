@@ -1988,7 +1988,7 @@ class UnicodeBlock extends Subset
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#forName
      */
-    public static function forName($a = null)
+    public static function static_forName($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -2002,7 +2002,7 @@ class UnicodeBlock extends Subset
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#of
      */
-    public static function of($a = null)
+    public static function static_of($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

@@ -20,7 +20,7 @@ class Compiler extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#command
      */
-    public static function command($a = null)
+    public static function static_command($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -33,7 +33,7 @@ class Compiler extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compileClass
      */
-    public static function compileClass($a = null)
+    public static function static_compileClass($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -46,7 +46,7 @@ class Compiler extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compileClasses
      */
-    public static function compileClasses($a = null)
+    public static function static_compileClasses($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -59,7 +59,7 @@ class Compiler extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#disable
      */
-    public static function disable($a = null)
+    public static function static_disable($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -72,7 +72,7 @@ class Compiler extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#enable
      */
-    public static function enable($a = null)
+    public static function static_enable($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

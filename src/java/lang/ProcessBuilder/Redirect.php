@@ -41,7 +41,7 @@ class Redirect extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#appendTo
      */
-    public static function appendTo($a = null)
+    public static function static_appendTo($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -80,7 +80,7 @@ class Redirect extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#from
      */
-    public static function from($a = null)
+    public static function static_from($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -106,7 +106,7 @@ class Redirect extends _Object
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#to
      */
-    public static function to($a = null)
+    public static function static_to($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
