@@ -15,6 +15,9 @@ class Base extends TestCase
 
         $pathRoot = __DIR__ . '/fixtures/java/';
 
+        // make cache directory
+        @mkdir(__DIR__ . '/caches', 0777);
+
         foreach ($this->fixtures as $fixture) {
             exec('javac -classpath ' . $pathRoot . ':' . $pathRoot . 'caches -encoding UTF8 ' . $pathRoot . str_replace(['../', './'], '', $fixture) . '.java -d ' . __DIR__ . '/caches');
             $this->initiatedJavaClasses[$fixture] = new \PHPJava\Core\JavaClass(

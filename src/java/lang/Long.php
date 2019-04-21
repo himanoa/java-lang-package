@@ -8,43 +8,43 @@ use PHPJava\Imitation\java\lang\Number;
 // use PHPJava\Imitation\java\lang\Comparable;
 
 /**
- * The `_Integer` class was auto generated.
+ * The `Long` class was auto generated.
  *
  * @parent \PHPJava\Imitation\java\lang\_Object
  * @parent \PHPJava\Imitation\java\lang\Number
  */
-class Integer extends Number /* implements Serializable, Comparable */
+class Long extends Number /* implements Serializable, Comparable */
 {
     /**
-     * The number of bytes used to represent an int value in two's complement binary form.
+     * The number of bytes used to represent a long value in two's complement binary form.
      *
      * @var mixed $BYTES
      */
     public static $BYTES = null;
 
     /**
-     * A constant holding the maximum value an int can have, 231-1.
+     * A constant holding the maximum value a long can have, 263-1.
      *
      * @var mixed $MAX_VALUE
      */
     public static $MAX_VALUE = null;
 
     /**
-     * A constant holding the minimum value an int can have, -231.
+     * A constant holding the minimum value a long can have, -263.
      *
      * @var mixed $MIN_VALUE
      */
     public static $MIN_VALUE = null;
 
     /**
-     * The number of bits used to represent an int value in two's complement binary form.
+     * The number of bits used to represent a long value in two's complement binary form.
      *
      * @var mixed $SIZE
      */
     public static $SIZE = null;
 
     /**
-     * The Class instance representing the primitive type int.
+     * The Class instance representing the primitive type long.
      *
      * @var mixed $TYPE
      */
@@ -52,7 +52,7 @@ class Integer extends Number /* implements Serializable, Comparable */
 
 
     /**
-     * Returns the number of one-bits in the two's complement binary representation of the specified int value.
+     * Returns the number of one-bits in the two's complement binary representation of the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -65,7 +65,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value of this Integer as a byte after a narrowing primitive conversion.
+     * Returns the value of this Long as a byte after a narrowing primitive conversion.
      *
      * @param mixed $a
      * @return mixed
@@ -78,7 +78,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Compares two int values numerically.
+     * Compares two long values numerically.
      *
      * @param mixed $a
      * @param mixed $b
@@ -92,7 +92,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Compares two Integer objects numerically.
+     * Compares two Long objects numerically.
      *
      * @param mixed $a
      * @return mixed
@@ -105,7 +105,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Compares two int values numerically treating the values as unsigned.
+     * Compares two long values numerically treating the values as unsigned.
      *
      * @param mixed $a
      * @param mixed $b
@@ -119,7 +119,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Decodes a String into an Integer.
+     * Decodes a String into a Long.
      *
      * @param mixed $a
      * @return mixed
@@ -146,7 +146,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value of this Integer as a double after a widening primitive conversion.
+     * Returns the value of this Long as a double after a widening primitive conversion.
      *
      * @param mixed $a
      * @return mixed
@@ -172,7 +172,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value of this Integer as a float after a widening primitive conversion.
+     * Returns the value of this Long as a float after a widening primitive conversion.
      *
      * @param mixed $a
      * @return mixed
@@ -185,24 +185,24 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Determines the integer value of the system property with the specified name.
-     * Determines the integer value of the system property with the specified name.
-     * Returns the integer value of the system property with the specified name.
+     * Determines the long value of the system property with the specified name.
+     * Determines the long value of the system property with the specified name.
+     * Returns the long value of the system property with the specified name.
      *
      * @param mixed $a
      * @param mixed $b
      * @return mixed
      * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getInteger
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getLong
      */
-    public static function getInteger($a = null, $b = null)
+    public static function getLong($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
 
     /**
-     * Returns a hash code for this Integer.
-     * Returns a hash code for an int value; compatible with Integer.hashCode().
+     * Returns a hash code for this Long.
+     * Returns a hash code for a long value; compatible with Long.hashCode().
      *
      * @param mixed $a
      * @return mixed
@@ -215,7 +215,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns an int value with at most a single one-bit, in the position of the highest-order ("leftmost") one-bit in the specified int value.
+     * Returns a long value with at most a single one-bit, in the position of the highest-order ("leftmost") one-bit in the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -228,7 +228,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value of this Integer as an int.
+     * Returns the value of this Long as an int after a narrowing primitive conversion.
      *
      * @param mixed $a
      * @return mixed
@@ -241,7 +241,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value of this Integer as a long after a widening primitive conversion.
+     * Returns the value of this Long as a long value.
      *
      * @param mixed $a
      * @return mixed
@@ -254,7 +254,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns an int value with at most a single one-bit, in the position of the lowest-order ("rightmost") one-bit in the specified int value.
+     * Returns a long value with at most a single one-bit, in the position of the lowest-order ("rightmost") one-bit in the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -267,7 +267,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the greater of two int values as if by calling Math.max.
+     * Returns the greater of two long values as if by calling Math.max.
      *
      * @param mixed $a
      * @param mixed $b
@@ -281,7 +281,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the smaller of two int values as if by calling Math.min.
+     * Returns the smaller of two long values as if by calling Math.min.
      *
      * @param mixed $a
      * @param mixed $b
@@ -295,7 +295,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the number of zero bits preceding the highest-order ("leftmost") one-bit in the two's complement binary representation of the specified int value.
+     * Returns the number of zero bits preceding the highest-order ("leftmost") one-bit in the two's complement binary representation of the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -308,7 +308,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the number of zero bits following the lowest-order ("rightmost") one-bit in the two's complement binary representation of the specified int value.
+     * Returns the number of zero bits following the lowest-order ("rightmost") one-bit in the two's complement binary representation of the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -321,9 +321,9 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Parses the CharSequence argument as a signed int in the specified radix, beginning at the specified beginIndex and extending to endIndex - 1.
-     * Parses the string argument as a signed decimal integer.
-     * Parses the string argument as a signed integer in the radix specified by the second argument.
+     * Parses the CharSequence argument as a signed long in the specified radix, beginning at the specified beginIndex and extending to endIndex - 1.
+     * Parses the string argument as a signed decimal long.
+     * Parses the string argument as a signed long in the radix specified by the second argument.
      *
      * @param mixed $a
      * @param mixed $b
@@ -331,17 +331,17 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @param mixed $d
      * @return mixed
      * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseInt
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseLong
      */
-    public static function parseInt($a = null, $b = null, $c = null, $d = null)
+    public static function parseLong($a = null, $b = null, $c = null, $d = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
 
     /**
-     * Parses the CharSequence argument as an unsigned int in the specified radix, beginning at the specified beginIndex and extending to endIndex - 1.
-     * Parses the string argument as an unsigned decimal integer.
-     * Parses the string argument as an unsigned integer in the radix specified by the second argument.
+     * Parses the CharSequence argument as an unsigned long in the specified radix, beginning at the specified beginIndex and extending to endIndex - 1.
+     * Parses the string argument as an unsigned decimal long.
+     * Parses the string argument as an unsigned long in the radix specified by the second argument.
      *
      * @param mixed $a
      * @param mixed $b
@@ -349,9 +349,9 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @param mixed $d
      * @return mixed
      * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseUnsignedInt
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#parseUnsignedLong
      */
-    public static function parseUnsignedInt($a = null, $b = null, $c = null, $d = null)
+    public static function parseUnsignedLong($a = null, $b = null, $c = null, $d = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -371,7 +371,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value obtained by reversing the order of the bits in the two's complement binary representation of the specified int value.
+     * Returns the value obtained by reversing the order of the bits in the two's complement binary representation of the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -384,7 +384,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value obtained by reversing the order of the bytes in the two's complement representation of the specified int value.
+     * Returns the value obtained by reversing the order of the bytes in the two's complement representation of the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -397,7 +397,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value obtained by rotating the two's complement binary representation of the specified int value left by the specified number of bits.
+     * Returns the value obtained by rotating the two's complement binary representation of the specified long value left by the specified number of bits.
      *
      * @param mixed $a
      * @param mixed $b
@@ -411,7 +411,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value obtained by rotating the two's complement binary representation of the specified int value right by the specified number of bits.
+     * Returns the value obtained by rotating the two's complement binary representation of the specified long value right by the specified number of bits.
      *
      * @param mixed $a
      * @param mixed $b
@@ -425,7 +425,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the value of this Integer as a short after a narrowing primitive conversion.
+     * Returns the value of this Long as a short after a narrowing primitive conversion.
      *
      * @param mixed $a
      * @return mixed
@@ -438,7 +438,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns the signum function of the specified int value.
+     * Returns the signum function of the specified long value.
      *
      * @param mixed $a
      * @return mixed
@@ -451,7 +451,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Adds two integers together as per the + operator.
+     * Adds two long values together as per the + operator.
      *
      * @param mixed $a
      * @param mixed $b
@@ -465,7 +465,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns a string representation of the integer argument as an unsigned integer in base&nbsp;2.
+     * Returns a string representation of the long argument as an unsigned integer in base&nbsp;2.
      *
      * @param mixed $a
      * @return mixed
@@ -478,7 +478,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns a string representation of the integer argument as an unsigned integer in base&nbsp;16.
+     * Returns a string representation of the long argument as an unsigned integer in base&nbsp;16.
      *
      * @param mixed $a
      * @return mixed
@@ -491,7 +491,7 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns a string representation of the integer argument as an unsigned integer in base&nbsp;8.
+     * Returns a string representation of the long argument as an unsigned integer in base&nbsp;8.
      *
      * @param mixed $a
      * @return mixed
@@ -504,8 +504,8 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns a String object representing this Integer's value.
-     * Returns a String object representing the specified integer.
+     * Returns a String object representing this Long's value.
+     * Returns a String object representing the specified long.
      * Returns a string representation of the first argument in the radix specified by the second argument.
      *
      * @param mixed $a
@@ -515,19 +515,6 @@ class Integer extends Number /* implements Serializable, Comparable */
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
     public static function toString($a = null, $b = null)
-    {
-        throw new NotImplementedException(__METHOD__);
-    }
-
-    /**
-     * Converts the argument to a long by an unsigned conversion.
-     *
-     * @param mixed $a
-     * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toUnsignedLong
-     */
-    public static function toUnsignedLong($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -548,9 +535,9 @@ class Integer extends Number /* implements Serializable, Comparable */
     }
 
     /**
-     * Returns an Integer instance representing the specified int value.
-     * Returns an Integer object holding the value of the specified String.
-     * Returns an Integer object holding the value extracted from the specified String when parsed with the radix given by the second argument.
+     * Returns a Long instance representing the specified long value.
+     * Returns a Long object holding the value of the specified String.
+     * Returns a Long object holding the value extracted from the specified String when parsed with the radix given by the second argument.
      *
      * @param mixed $a
      * @param mixed $b

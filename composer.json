@@ -30,7 +30,11 @@
         "friendsofphp/php-cs-fixer": "^2.14",
         "php-java/php-java": "dev-master"
     },
+    "provide": {
+        "php-java/java-lang-package": "*"
+    },
     "scripts": {
         "tests": "phpunit tests --stop-on-failure && phpcs --standard=phpcs.xml src"
-    }
+    },
+    "minimum-stability": "dev"
 }

@@ -3,28 +3,27 @@ namespace PHPJava\Imitation\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
 use PHPJava\Imitation\java\lang\_Object;
-use PHPJava\Utilities\Extractor;
 
 /**
- * The `Math` class was auto generated.
+ * The `StrictMath` class was auto generated.
  *
  * @parent \PHPJava\Imitation\java\lang\_Object
  */
-class Math extends _Object
+class StrictMath extends _Object
 {
     /**
      * The double value that is closer than any other to e, the base of the natural logarithms.
      *
      * @var mixed $E
      */
-    public static $E = M_E;
+    public static $E = null;
 
     /**
      * The double value that is closer than any other to pi, the ratio of the circumference of a circle to its diameter.
      *
      * @var mixed $PI
      */
-    public static $PI = M_PI;
+    public static $PI = null;
 
 
     /**
@@ -40,7 +39,7 @@ class Math extends _Object
      */
     public static function abs($a = null)
     {
-        return abs(Extractor::realValue($a));
+        throw new NotImplementedException(__METHOD__);
     }
 
     /**
@@ -179,20 +178,6 @@ class Math extends _Object
     }
 
     /**
-     * Returns the argument decremented by one, throwing an exception if the result overflows an int.
-     * Returns the argument decremented by one, throwing an exception if the result overflows a long.
-     *
-     * @param mixed $a
-     * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#decrementExact
-     */
-    public static function decrementExact($a = null)
-    {
-        return Extractor::realValue($a) - 1;
-    }
-
-    /**
      * Returns Euler's number e raised to the power of a double value.
      *
      * @param mixed $a
@@ -322,20 +307,6 @@ class Math extends _Object
     }
 
     /**
-     * Returns the argument incremented by one, throwing an exception if the result overflows an int.
-     * Returns the argument incremented by one, throwing an exception if the result overflows a long.
-     *
-     * @param mixed $a
-     * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#incrementExact
-     */
-    public static function incrementExact($a = null)
-    {
-        throw new NotImplementedException(__METHOD__);
-    }
-
-    /**
      * Returns the natural logarithm (base e) of a double value.
      *
      * @param mixed $a
@@ -448,20 +419,6 @@ class Math extends _Object
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#multiplyHigh
      */
     public static function multiplyHigh($a = null, $b = null)
-    {
-        throw new NotImplementedException(__METHOD__);
-    }
-
-    /**
-     * Returns the negation of the argument, throwing an exception if the result overflows an int.
-     * Returns the negation of the argument, throwing an exception if the result overflows a long.
-     *
-     * @param mixed $a
-     * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#negateExact
-     */
-    public static function negateExact($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
