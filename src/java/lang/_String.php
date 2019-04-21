@@ -51,7 +51,7 @@ class _String extends _Object
         $index = Extractor::realValue($a);
         $length = $this->length();
 
-        if ($length < 0 || $length <= $index) {
+        if ($index < 0 || $length <= $index) {
             throw new IndexOutOfBoundsException("String index out of range: {$index}");
         }
 
