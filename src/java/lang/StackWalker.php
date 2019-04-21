@@ -55,7 +55,7 @@ class StackWalker extends _Object /* implements StackFrame, Consumer, Set, Strea
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getInstance
      */
-    public static function getInstance($a = null, $b = null)
+    public static function static_getInstance($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

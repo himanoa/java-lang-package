@@ -734,7 +734,7 @@ class UnicodeScript extends Enum /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#forName
      */
-    public static function forName($a = null)
+    public static function static_forName($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -747,7 +747,7 @@ class UnicodeScript extends Enum /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#of
      */
-    public static function of($a = null)
+    public static function static_of($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -760,7 +760,7 @@ class UnicodeScript extends Enum /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#valueOf
      */
-    public static function valueOf($a = null)
+    public static function static_valueOf($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -773,7 +773,7 @@ class UnicodeScript extends Enum /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#values
      */
-    public static function values($a = null)
+    public static function static_values($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

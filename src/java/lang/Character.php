@@ -513,7 +513,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#charCount
      */
-    public static function charCount($a = null)
+    public static function static_charCount($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -543,7 +543,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#codePointAt
      */
-    public static function codePointAt($a = null, $b = null, $c = null)
+    public static function static_codePointAt($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -560,7 +560,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#codePointBefore
      */
-    public static function codePointBefore($a = null, $b = null, $c = null)
+    public static function static_codePointBefore($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -576,7 +576,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#codePointCount
      */
-    public static function codePointCount($a = null, $b = null, $c = null)
+    public static function static_codePointCount($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -589,7 +589,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#codePointOf
      */
-    public static function codePointOf($a = null)
+    public static function static_codePointOf($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -603,7 +603,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compare
      */
-    public static function compare($a = null, $b = null)
+    public static function static_compare($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -631,7 +631,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#digit
      */
-    public static function digit($a = null, $b = null)
+    public static function static_digit($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -658,7 +658,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#forDigit
      */
-    public static function forDigit($a = null, $b = null)
+    public static function static_forDigit($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -672,7 +672,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getDirectionality
      */
-    public static function getDirectionality($a = null)
+    public static function static_getDirectionality($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -685,7 +685,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getName
      */
-    public static function getName($a = null)
+    public static function static_getName($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -699,7 +699,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getNumericValue
      */
-    public static function getNumericValue($a = null)
+    public static function static_getNumericValue($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -713,7 +713,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getType
      */
-    public static function getType($a = null)
+    public static function static_getType($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -727,7 +727,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#hashCode
      */
-    public static function hashCode($a = null)
+    public static function static_hashCode($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -740,7 +740,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#highSurrogate
      */
-    public static function highSurrogate($a = null)
+    public static function static_highSurrogate($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -753,7 +753,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isAlphabetic
      */
-    public static function isAlphabetic($a = null)
+    public static function static_isAlphabetic($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -766,7 +766,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isBmpCodePoint
      */
-    public static function isBmpCodePoint($a = null)
+    public static function static_isBmpCodePoint($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -780,7 +780,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isDefined
      */
-    public static function isDefined($a = null)
+    public static function static_isDefined($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -794,7 +794,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isDigit
      */
-    public static function isDigit($a = null)
+    public static function static_isDigit($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -807,7 +807,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isHighSurrogate
      */
-    public static function isHighSurrogate($a = null)
+    public static function static_isHighSurrogate($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -821,7 +821,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isIdentifierIgnorable
      */
-    public static function isIdentifierIgnorable($a = null)
+    public static function static_isIdentifierIgnorable($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -834,7 +834,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isIdeographic
      */
-    public static function isIdeographic($a = null)
+    public static function static_isIdeographic($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -848,7 +848,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isISOControl
      */
-    public static function isISOControl($a = null)
+    public static function static_isISOControl($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -862,7 +862,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isJavaIdentifierPart
      */
-    public static function isJavaIdentifierPart($a = null)
+    public static function static_isJavaIdentifierPart($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -876,7 +876,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isJavaIdentifierStart
      */
-    public static function isJavaIdentifierStart($a = null)
+    public static function static_isJavaIdentifierStart($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -889,7 +889,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isJavaLetter
      */
-    public static function isJavaLetter($a = null)
+    public static function static_isJavaLetter($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -902,7 +902,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isJavaLetterOrDigit
      */
-    public static function isJavaLetterOrDigit($a = null)
+    public static function static_isJavaLetterOrDigit($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -916,7 +916,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isLetter
      */
-    public static function isLetter($a = null)
+    public static function static_isLetter($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -930,7 +930,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isLetterOrDigit
      */
-    public static function isLetterOrDigit($a = null)
+    public static function static_isLetterOrDigit($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -944,7 +944,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isLowerCase
      */
-    public static function isLowerCase($a = null)
+    public static function static_isLowerCase($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -957,7 +957,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isLowSurrogate
      */
-    public static function isLowSurrogate($a = null)
+    public static function static_isLowSurrogate($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -971,7 +971,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isMirrored
      */
-    public static function isMirrored($a = null)
+    public static function static_isMirrored($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -984,7 +984,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isSpace
      */
-    public static function isSpace($a = null)
+    public static function static_isSpace($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -998,7 +998,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isSpaceChar
      */
-    public static function isSpaceChar($a = null)
+    public static function static_isSpaceChar($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1011,7 +1011,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isSupplementaryCodePoint
      */
-    public static function isSupplementaryCodePoint($a = null)
+    public static function static_isSupplementaryCodePoint($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1024,7 +1024,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isSurrogate
      */
-    public static function isSurrogate($a = null)
+    public static function static_isSurrogate($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1038,7 +1038,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isSurrogatePair
      */
-    public static function isSurrogatePair($a = null, $b = null)
+    public static function static_isSurrogatePair($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1052,7 +1052,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isTitleCase
      */
-    public static function isTitleCase($a = null)
+    public static function static_isTitleCase($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1066,7 +1066,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isUnicodeIdentifierPart
      */
-    public static function isUnicodeIdentifierPart($a = null)
+    public static function static_isUnicodeIdentifierPart($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1080,7 +1080,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isUnicodeIdentifierStart
      */
-    public static function isUnicodeIdentifierStart($a = null)
+    public static function static_isUnicodeIdentifierStart($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1094,7 +1094,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isUpperCase
      */
-    public static function isUpperCase($a = null)
+    public static function static_isUpperCase($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1107,7 +1107,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isValidCodePoint
      */
-    public static function isValidCodePoint($a = null)
+    public static function static_isValidCodePoint($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1121,7 +1121,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#isWhitespace
      */
-    public static function isWhitespace($a = null)
+    public static function static_isWhitespace($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1134,7 +1134,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#lowSurrogate
      */
-    public static function lowSurrogate($a = null)
+    public static function static_lowSurrogate($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1152,7 +1152,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#offsetByCodePoints
      */
-    public static function offsetByCodePoints($a = null, $b = null, $c = null, $d = null, $e = null)
+    public static function static_offsetByCodePoints($a = null, $b = null, $c = null, $d = null, $e = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1165,7 +1165,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#reverseBytes
      */
-    public static function reverseBytes($a = null)
+    public static function static_reverseBytes($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1181,7 +1181,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toChars
      */
-    public static function toChars($a = null, $b = null, $c = null)
+    public static function static_toChars($a = null, $b = null, $c = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1195,7 +1195,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toCodePoint
      */
-    public static function toCodePoint($a = null, $b = null)
+    public static function static_toCodePoint($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1209,7 +1209,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toLowerCase
      */
-    public static function toLowerCase($a = null)
+    public static function static_toLowerCase($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1224,7 +1224,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toString
      */
-    public static function toString($a = null)
+    public static function static_toString($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1238,7 +1238,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toTitleCase
      */
-    public static function toTitleCase($a = null)
+    public static function static_toTitleCase($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1252,7 +1252,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#toUpperCase
      */
-    public static function toUpperCase($a = null)
+    public static function static_toUpperCase($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -1265,7 +1265,7 @@ class Character extends _Object /* implements Serializable, Comparable */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#valueOf
      */
-    public static function valueOf($a = null)
+    public static function static_valueOf($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

@@ -49,7 +49,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#arraycopy
      */
-    public static function arraycopy($a = null, $b = null, $c = null, $d = null, $e = null)
+    public static function static_arraycopy($a = null, $b = null, $c = null, $d = null, $e = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -62,7 +62,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#clearProperty
      */
-    public static function clearProperty($a = null)
+    public static function static_clearProperty($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -75,7 +75,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#console
      */
-    public static function console($a = null)
+    public static function static_console($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -88,7 +88,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#currentTimeMillis
      */
-    public static function currentTimeMillis($a = null)
+    public static function static_currentTimeMillis($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -101,7 +101,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#exit
      */
-    public static function exit($a = null)
+    public static function static_exit($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -114,7 +114,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#gc
      */
-    public static function gc($a = null)
+    public static function static_gc($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -128,7 +128,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getenv
      */
-    public static function getenv($a = null)
+    public static function static_getenv($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -143,7 +143,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getLogger
      */
-    public static function getLogger($a = null, $b = null)
+    public static function static_getLogger($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -156,7 +156,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getProperties
      */
-    public static function getProperties($a = null)
+    public static function static_getProperties($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -171,7 +171,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getProperty
      */
-    public static function getProperty($a = null, $b = null)
+    public static function static_getProperty($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -184,7 +184,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#getSecurityManager
      */
-    public static function getSecurityManager($a = null)
+    public static function static_getSecurityManager($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -197,7 +197,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#identityHashCode
      */
-    public static function identityHashCode($a = null)
+    public static function static_identityHashCode($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -210,7 +210,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#inheritedChannel
      */
-    public static function inheritedChannel($a = null)
+    public static function static_inheritedChannel($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -223,7 +223,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#lineSeparator
      */
-    public static function lineSeparator($a = null)
+    public static function static_lineSeparator($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -236,7 +236,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#load
      */
-    public static function load($a = null)
+    public static function static_load($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -249,7 +249,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#loadLibrary
      */
-    public static function loadLibrary($a = null)
+    public static function static_loadLibrary($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -262,7 +262,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#mapLibraryName
      */
-    public static function mapLibraryName($a = null)
+    public static function static_mapLibraryName($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -275,7 +275,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#nanoTime
      */
-    public static function nanoTime($a = null)
+    public static function static_nanoTime($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -288,7 +288,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#runFinalization
      */
-    public static function runFinalization($a = null)
+    public static function static_runFinalization($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -301,7 +301,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setErr
      */
-    public static function setErr($a = null)
+    public static function static_setErr($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -314,7 +314,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setIn
      */
-    public static function setIn($a = null)
+    public static function static_setIn($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -327,7 +327,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setOut
      */
-    public static function setOut($a = null)
+    public static function static_setOut($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -340,7 +340,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setProperties
      */
-    public static function setProperties($a = null)
+    public static function static_setProperties($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -354,7 +354,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setProperty
      */
-    public static function setProperty($a = null, $b = null)
+    public static function static_setProperty($a = null, $b = null)
     {
         throw new NotImplementedException(__METHOD__);
     }
@@ -367,7 +367,7 @@ class System extends _Object /* implements Logger, Map, Channel */
      * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#setSecurityManager
      */
-    public static function setSecurityManager($a = null)
+    public static function static_setSecurityManager($a = null)
     {
         throw new NotImplementedException(__METHOD__);
     }

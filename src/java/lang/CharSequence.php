@@ -52,7 +52,7 @@ interface CharSequence
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#compare
      * @NotImplemented
      */
-    // public static function compare($a = null, $b = null)
+    // public static function static_compare($a = null, $b = null)
 
     /**
      * Returns the length of this character sequence.
