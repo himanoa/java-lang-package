@@ -42,7 +42,7 @@ class _String extends _Object
      * Returns the char value at the specified index.
      *
      * @param mixed $a
-     * @return _String
+     * @return _Char
      * @throws IndexOutOfBoundsException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#charAt(int)
      */
@@ -155,12 +155,11 @@ class _String extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#concat
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#concat(java.lang.String)
      */
     public function concat($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return new static($this . $a);
     }
 
     /**
