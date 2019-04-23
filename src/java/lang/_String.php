@@ -8,7 +8,7 @@ use PHPJava\Kernel\Types\_Char;
 use PHPJava\Utilities\Extractor;
 
 // use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\lang\CharSequence;
+use PHPJava\Imitation\java\lang\CharSequence;
 // use PHPJava\Imitation\java\util\Comparator;
 // use PHPJava\Imitation\java\util\stream\IntStream;
 
@@ -17,7 +17,7 @@ use PHPJava\Utilities\Extractor;
  *
  * @parent \PHPJava\Imitation\java\lang\_Object
  */
-class _String extends _Object
+class _String extends _Object implements CharSequence
 {
     private $object = null;
 
