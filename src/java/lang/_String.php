@@ -8,16 +8,16 @@ use PHPJava\Kernel\Types\_Char;
 use PHPJava\Utilities\Extractor;
 
 // use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\lang\CharSequence;
 // use PHPJava\Imitation\java\util\Comparator;
 // use PHPJava\Imitation\java\util\stream\IntStream;
+use PHPJava\Imitation\java\lang\CharSequence;
 
 /**
  * The `String` class was auto generated.
  *
  * @parent \PHPJava\Imitation\java\lang\_Object
  */
-class _String extends _Object
+class _String extends _Object implements CharSequence
 {
     private $object = null;
 
@@ -493,12 +493,11 @@ class _String extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#replace
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#replace(java.lang.CharSequence,java.lang.CharSequence)
      */
     public function replace($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return new static(str_replace($a, $b, $this));
     }
 
     /**
