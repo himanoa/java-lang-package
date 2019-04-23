@@ -9,4 +9,14 @@ class ImitateJavaLangStringTest
     {
         System.out.print(a.concat(b));
     }
+
+    public static void toLowerCase(String a)
+    {
+        System.out.print(a.toLowerCase());
+    }
+
+    public static void toUpperCase(String a)
+    {
+        System.out.print(a.toUpperCase());
+    }
 }
