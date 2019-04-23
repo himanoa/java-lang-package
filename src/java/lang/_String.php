@@ -651,7 +651,12 @@ class _String extends _Object
      */
     public function toLowerCase($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $locale = $a;
+        if ($locale) {
+            throw new NotImplementedException(__METHOD__);
+        }
+
+        return new static(strtolower($this));
     }
 
     /**
@@ -677,7 +682,12 @@ class _String extends _Object
      */
     public function toUpperCase($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $locale = $a;
+        if ($locale) {
+            throw new NotImplementedException(__METHOD__);
+        }
+
+        return new static(strtoupper($this));
     }
 
     /**
