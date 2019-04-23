@@ -4,6 +4,7 @@ namespace PHPJava\Tests;
 use PHPJava\Core\JavaArchive;
 use PHPUnit\Framework\TestCase;
 use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
+use PHPJava\Imitation\java\lang\_String;
 
 class ImitateJavaLangStringTest extends Base
 {
@@ -85,8 +86,8 @@ class ImitateJavaLangStringTest extends Base
             ->call(
                 'replace',
                 'abcabc',
-                'b',
-                'c'
+                new _String('b'),
+                new _String('c')
             );
         $value = ob_get_clean();
         $this->assertEquals('accacc', $value);

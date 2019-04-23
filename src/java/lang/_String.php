@@ -8,9 +8,9 @@ use PHPJava\Kernel\Types\_Char;
 use PHPJava\Utilities\Extractor;
 
 // use PHPJava\Imitation\java\io\Serializable;
-use PHPJava\Imitation\java\lang\CharSequence;
 // use PHPJava\Imitation\java\util\Comparator;
 // use PHPJava\Imitation\java\util\stream\IntStream;
+use PHPJava\Imitation\java\lang\CharSequence;
 
 /**
  * The `String` class was auto generated.
