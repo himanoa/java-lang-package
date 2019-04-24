@@ -1,16 +1,16 @@
 <?php
-namespace PHPJava\Imitation\java\lang\Runtime;
+namespace PHPJava\Packages\java\lang\Runtime;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\Comparable;
-// use PHPJava\Imitation\java\util\_List;
+// use PHPJava\Packages\java\lang\Comparable;
+// use PHPJava\Packages\java\util\_List;
 
 /**
  * The `Version` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class Version extends _Object /* implements Comparable, _List */
 {

@@ -1,15 +1,15 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\Thread\UncaughtExceptionHandler;
+// use PHPJava\Packages\java\lang\Thread\UncaughtExceptionHandler;
 
 /**
  * The `ThreadGroup` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class ThreadGroup extends _Object /* implements UncaughtExceptionHandler */
 {

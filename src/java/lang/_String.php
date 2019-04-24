@@ -1,21 +1,21 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
+use PHPJava\Packages\java\lang\IndexOutOfBoundsException;
 use PHPJava\Kernel\Structures\_Utf8;
 use PHPJava\Kernel\Types\_Char;
 use PHPJava\Utilities\Extractor;
 
-// use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\util\Comparator;
-// use PHPJava\Imitation\java\util\stream\IntStream;
-use PHPJava\Imitation\java\lang\CharSequence;
+// use PHPJava\Packages\java\io\Serializable;
+// use PHPJava\Packages\java\util\Comparator;
+// use PHPJava\Packages\java\util\stream\IntStream;
+use PHPJava\Packages\java\lang\CharSequence;
 
 /**
  * The `String` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class _String extends _Object implements CharSequence
 {

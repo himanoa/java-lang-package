@@ -1,13 +1,13 @@
 <?php
-namespace PHPJava\Imitation\java\lang\ModuleLayer;
+namespace PHPJava\Packages\java\lang\ModuleLayer;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
 /**
  * The `Controller` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class Controller extends _Object
 {

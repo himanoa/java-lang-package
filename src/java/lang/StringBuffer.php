@@ -1,17 +1,17 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\lang\CharSequence;
-// use PHPJava\Imitation\java\util\stream\IntStream;
+// use PHPJava\Packages\java\io\Serializable;
+// use PHPJava\Packages\java\lang\CharSequence;
+// use PHPJava\Packages\java\util\stream\IntStream;
 
 /**
  * The `StringBuffer` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class StringBuffer extends _Object /* implements Serializable, CharSequence, IntStream */
 {

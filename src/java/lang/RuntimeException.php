@@ -1,5 +1,5 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 class RuntimeException extends Exception
 {

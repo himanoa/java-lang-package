@@ -1,17 +1,17 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\reflect\AnnotatedElement;
-// use PHPJava\Imitation\java\lang\annotation\Annotation;
-// use PHPJava\Imitation\java\util\Set;
+// use PHPJava\Packages\java\lang\reflect\AnnotatedElement;
+// use PHPJava\Packages\java\lang\annotation\Annotation;
+// use PHPJava\Packages\java\util\Set;
 
 /**
  * The `Module` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class Module extends _Object /* implements AnnotatedElement, Annotation, Set */
 {

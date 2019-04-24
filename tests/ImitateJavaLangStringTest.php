@@ -3,8 +3,8 @@ namespace PHPJava\Tests;
 
 use PHPJava\Core\JavaArchive;
 use PHPUnit\Framework\TestCase;
-use PHPJava\Imitation\java\lang\IndexOutOfBoundsException;
-use PHPJava\Imitation\java\lang\_String;
+use PHPJava\Packages\java\lang\IndexOutOfBoundsException;
+use PHPJava\Packages\java\lang\_String;
 
 class ImitateJavaLangStringTest extends Base
 {

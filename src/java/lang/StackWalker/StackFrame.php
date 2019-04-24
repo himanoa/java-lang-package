@@ -1,8 +1,8 @@
 <?php
-namespace PHPJava\Imitation\java\lang\StackWalker;
+namespace PHPJava\Packages\java\lang\StackWalker;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang;
+use PHPJava\Packages\java\lang;
 
 /**
  * The `StackFrame` interface was auto generated.

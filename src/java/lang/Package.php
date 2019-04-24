@@ -1,16 +1,16 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\reflect\AnnotatedElement;
-// use PHPJava\Imitation\java\lang\annotation\Annotation;
+// use PHPJava\Packages\java\lang\reflect\AnnotatedElement;
+// use PHPJava\Packages\java\lang\annotation\Annotation;
 
 /**
  * The `Package` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class Package extends _Object /* implements AnnotatedElement, Annotation */
 {

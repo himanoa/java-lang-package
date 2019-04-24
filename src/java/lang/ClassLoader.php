@@ -1,16 +1,16 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\util\Enumeration;
-// use PHPJava\Imitation\java\util\stream\Stream;
+// use PHPJava\Packages\java\util\Enumeration;
+// use PHPJava\Packages\java\util\stream\Stream;
 
 /**
  * The `ClassLoader` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class ClassLoader extends _Object /* implements Enumeration, Stream */
 {

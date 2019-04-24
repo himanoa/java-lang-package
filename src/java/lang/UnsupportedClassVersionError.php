@@ -1,19 +1,19 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\ClassFormatError;
+use PHPJava\Packages\java\lang\ClassFormatError;
 
-// use PHPJava\Imitation\java\io\Serializable;
+// use PHPJava\Packages\java\io\Serializable;
 
 /**
  * The `UnsupportedClassVersionError` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\lang\Throwable
- * @parent \PHPJava\Imitation\java\lang\Error
- * @parent \PHPJava\Imitation\java\lang\LinkageError
- * @parent \PHPJava\Imitation\java\lang\ClassFormatError
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\Throwable
+ * @parent \PHPJava\Packages\java\lang\Error
+ * @parent \PHPJava\Packages\java\lang\LinkageError
+ * @parent \PHPJava\Packages\java\lang\ClassFormatError
  */
 class UnsupportedClassVersionError extends ClassFormatError /* implements Serializable */
 {

@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PHPJava\\Imitation\\": "src/"
+            "PHPJava\\Packages\\": "src/"
         }
     },
     "autoload-dev": {

@@ -1,7 +1,7 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 class _Object
 {
-    use \PHPJava\Imitation\PHPJava\Extended\_Object;
+    use \PHPJava\Packages\PHPJava\Extended\_Object;
 }

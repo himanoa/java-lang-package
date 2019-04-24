@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 class StringBuilder extends _Object
 {
