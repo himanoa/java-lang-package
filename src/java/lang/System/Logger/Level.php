@@ -1,17 +1,17 @@
 <?php
-namespace PHPJava\Imitation\java\lang\System\Logger;
+namespace PHPJava\Packages\java\lang\System\Logger;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\Enum;
+use PHPJava\Packages\java\lang\Enum;
 
-// use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\lang\loggers;
+// use PHPJava\Packages\java\io\Serializable;
+// use PHPJava\Packages\java\lang\loggers;
 
 /**
  * The `Level` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\lang\Enum
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\Enum
  */
 class Level extends Enum /* implements Serializable, loggers */
 {

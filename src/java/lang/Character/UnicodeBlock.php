@@ -1,14 +1,14 @@
 <?php
-namespace PHPJava\Imitation\java\lang\Character;
+namespace PHPJava\Packages\java\lang\Character;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\Character\Subset;
+use PHPJava\Packages\java\lang\Character\Subset;
 
 /**
  * The `UnicodeBlock` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\lang\Character\Subset
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\Character\Subset
  */
 class UnicodeBlock extends Subset
 {

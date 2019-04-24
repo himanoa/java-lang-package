@@ -1,15 +1,15 @@
 <?php
-namespace PHPJava\Imitation\java\lang\System;
+namespace PHPJava\Packages\java\lang\System;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\System\Logger;
+// use PHPJava\Packages\java\lang\System\Logger;
 
 /**
  * The `LoggerFinder` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class LoggerFinder extends _Object /* implements Logger */
 {

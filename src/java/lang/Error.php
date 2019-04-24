@@ -1,16 +1,16 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\Throwable;
+use PHPJava\Packages\java\lang\Throwable;
 
-// use PHPJava\Imitation\java\io\Serializable;
+// use PHPJava\Packages\java\io\Serializable;
 
 /**
  * The `Error` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\lang\Throwable
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\Throwable
  */
 class Error extends Throwable /* implements Serializable */
 {

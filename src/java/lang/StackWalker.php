@@ -1,18 +1,18 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\StackWalker\StackFrame;
-// use PHPJava\Imitation\java\util\function\Consumer;
-// use PHPJava\Imitation\java\util\Set;
-// use PHPJava\Imitation\java\util\stream\Stream;
+// use PHPJava\Packages\java\lang\StackWalker\StackFrame;
+// use PHPJava\Packages\java\util\function\Consumer;
+// use PHPJava\Packages\java\util\Set;
+// use PHPJava\Packages\java\util\stream\Stream;
 
 /**
  * The `StackWalker` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class StackWalker extends _Object /* implements StackFrame, Consumer, Set, Stream */
 {

@@ -1,13 +1,13 @@
 <?php
-namespace PHPJava\Imitation\java\lang\ProcessBuilder;
+namespace PHPJava\Packages\java\lang\ProcessBuilder;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
 /**
  * The `Redirect` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class Redirect extends _Object
 {

@@ -1,18 +1,18 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\security\BasicPermission;
+use PHPJava\Packages\java\security\BasicPermission;
 
-// use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\security\Guard;
+// use PHPJava\Packages\java\io\Serializable;
+// use PHPJava\Packages\java\security\Guard;
 
 /**
  * The `RuntimePermission` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\security\Permission
- * @parent \PHPJava\Imitation\java\security\BasicPermission
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\security\Permission
+ * @parent \PHPJava\Packages\java\security\BasicPermission
  */
 class RuntimePermission extends BasicPermission /* implements Serializable, Guard */
 {

@@ -1,8 +1,8 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang;
+use PHPJava\Packages\java\lang;
 
 /**
  * The `Readable` interface was auto generated.

@@ -1,16 +1,16 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\util\function\_Function;
-// use PHPJava\Imitation\java\util\Set;
+// use PHPJava\Packages\java\util\function\_Function;
+// use PHPJava\Packages\java\util\Set;
 
 /**
  * The `ModuleLayer` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class ModuleLayer extends _Object /* implements _Function, Set */
 {

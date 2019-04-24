@@ -1,8 +1,8 @@
 <?php
-namespace PHPJava\Imitation\java\lang\Thread;
+namespace PHPJava\Packages\java\lang\Thread;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang;
+use PHPJava\Packages\java\lang;
 
 /**
  * The `UncaughtExceptionHandler` interface was auto generated.

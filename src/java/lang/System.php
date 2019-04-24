@@ -1,17 +1,17 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\System\Logger;
-// use PHPJava\Imitation\java\util\Map;
-// use PHPJava\Imitation\java\nio\channels\Channel;
+// use PHPJava\Packages\java\lang\System\Logger;
+// use PHPJava\Packages\java\util\Map;
+// use PHPJava\Packages\java\nio\channels\Channel;
 
 /**
  * The `System` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class System extends _Object /* implements Logger, Map, Channel */
 {

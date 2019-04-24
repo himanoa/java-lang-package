@@ -1,16 +1,16 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\_Object;
+use PHPJava\Packages\java\lang\_Object;
 
-// use PHPJava\Imitation\java\lang\Thread\UncaughtExceptionHandler;
-// use PHPJava\Imitation\java\util\Map;
+// use PHPJava\Packages\java\lang\Thread\UncaughtExceptionHandler;
+// use PHPJava\Packages\java\util\Map;
 
 /**
  * The `Thread` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\_Object
  */
 class Thread extends _Object /* implements UncaughtExceptionHandler, Map */
 {

@@ -1,18 +1,18 @@
 <?php
-namespace PHPJava\Imitation\java\lang;
+namespace PHPJava\Packages\java\lang;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\VirtualMachineError;
+use PHPJava\Packages\java\lang\VirtualMachineError;
 
-// use PHPJava\Imitation\java\io\Serializable;
+// use PHPJava\Packages\java\io\Serializable;
 
 /**
  * The `StackOverflowError` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\lang\Throwable
- * @parent \PHPJava\Imitation\java\lang\Error
- * @parent \PHPJava\Imitation\java\lang\VirtualMachineError
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\Throwable
+ * @parent \PHPJava\Packages\java\lang\Error
+ * @parent \PHPJava\Packages\java\lang\VirtualMachineError
  */
 class StackOverflowError extends VirtualMachineError /* implements Serializable */
 {

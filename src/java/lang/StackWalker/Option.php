@@ -1,17 +1,17 @@
 <?php
-namespace PHPJava\Imitation\java\lang\StackWalker;
+namespace PHPJava\Packages\java\lang\StackWalker;
 
 use PHPJava\Exceptions\NotImplementedException;
-use PHPJava\Imitation\java\lang\Enum;
+use PHPJava\Packages\java\lang\Enum;
 
-// use PHPJava\Imitation\java\io\Serializable;
-// use PHPJava\Imitation\java\lang\stack frame;
+// use PHPJava\Packages\java\io\Serializable;
+// use PHPJava\Packages\java\lang\stack frame;
 
 /**
  * The `Option` class was auto generated.
  *
- * @parent \PHPJava\Imitation\java\lang\_Object
- * @parent \PHPJava\Imitation\java\lang\Enum
+ * @parent \PHPJava\Packages\java\lang\_Object
+ * @parent \PHPJava\Packages\java\lang\Enum
  */
 class Option extends Enum /* implements Serializable, stack frame */
 {
