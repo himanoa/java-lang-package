@@ -75,15 +75,17 @@ class ImitateJavaLangMathTest
         System.out.println(Math.floor(a));
     }
 
-    public static void floorDiv(int a, int b)
-    {
-        System.out.println(Math.floorDiv(a, b));
-    }
+    // TODO: Java 9
+    // public static void floorDiv(int a, int b)
+    // {
+    //     System.out.println(Math.floorDiv(a, b));
+    // }
 
-    public static void floorMod(int a, int b)
-    {
-        System.out.println(Math.floorMod(a, b));
-    }
+    // TODO: Java 9
+    // public static void floorMod(int a, int b)
+    // {
+    //     System.out.println(Math.floorMod(a, b));
+    // }
 
     public static void incrementExact(int a)
     {
@@ -115,15 +117,17 @@ class ImitateJavaLangMathTest
         System.out.println(Math.min(a, b));
     }
 
-    public static void multiplyExact(int a, int b)
-    {
-        System.out.println(Math.multiplyExact(a, b));
-    }
+    // TODO: Java 9
+    // public static void multiplyExact(int a, int b)
+    // {
+    //     System.out.println(Math.multiplyExact(a, b));
+    // }
 
-    public static void multiplyFull(int a, int b)
-    {
-        System.out.println(Math.multiplyFull(a, b));
-    }
+    // TODO: Java 9
+    // public static void multiplyFull(int a, int b)
+    // {
+    //     System.out.println(Math.multiplyFull(a, b));
+    // }
 
     public static void pow(int a, int b)
     {

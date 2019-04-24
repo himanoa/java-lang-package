@@ -238,37 +238,39 @@ class ImitateJavaLangMathTest extends Base
         $this->assertEquals(0, $value);
     }
 
-    public function testFloorDiv()
-    {
-        ob_start();
-        $this->initiatedJavaClasses['ImitateJavaLangMathTest']
-            ->getInvoker()
-            ->getStatic()
-            ->getMethods()
-            ->call(
-                'floorDiv',
-                -4,
-                3
-            );
-        $value = (int) ob_get_clean();
-        $this->assertEquals(-2, $value);
-    }
+    // TODO: Java 9
+    // public function testFloorDiv()
+    // {
+    //     ob_start();
+    //     $this->initiatedJavaClasses['ImitateJavaLangMathTest']
+    //         ->getInvoker()
+    //         ->getStatic()
+    //         ->getMethods()
+    //         ->call(
+    //             'floorDiv',
+    //             -4,
+    //             3
+    //         );
+    //     $value = (int) ob_get_clean();
+    //     $this->assertEquals(-2, $value);
+    // }
 
-    public function testFloorMod()
-    {
-        ob_start();
-        $this->initiatedJavaClasses['ImitateJavaLangMathTest']
-            ->getInvoker()
-            ->getStatic()
-            ->getMethods()
-            ->call(
-                'floorMod',
-                4,
-                -3
-            );
-        $value = (int) ob_get_clean();
-        $this->assertEquals(-2, $value);
-    }
+    // TODO: Java 9
+    // public function testFloorMod()
+    // {
+    //     ob_start();
+    //     $this->initiatedJavaClasses['ImitateJavaLangMathTest']
+    //         ->getInvoker()
+    //         ->getStatic()
+    //         ->getMethods()
+    //         ->call(
+    //             'floorMod',
+    //             4,
+    //             -3
+    //         );
+    //     $value = (int) ob_get_clean();
+    //     $this->assertEquals(-2, $value);
+    // }
 
     public function testIncrementExact()
     {
@@ -362,37 +364,39 @@ class ImitateJavaLangMathTest extends Base
         $this->assertEquals(1234, $value);
     }
 
-    public function testMultiplyExact()
-    {
-        ob_start();
-        $this->initiatedJavaClasses['ImitateJavaLangMathTest']
-            ->getInvoker()
-            ->getStatic()
-            ->getMethods()
-            ->call(
-                'multiplyExact',
-                1234,
-                5678
-            );
-        $value = (int) ob_get_clean();
-        $this->assertEquals(7006652, $value);
-    }
+    // TODO: Java 9
+    // public function testMultiplyExact()
+    // {
+    //     ob_start();
+    //     $this->initiatedJavaClasses['ImitateJavaLangMathTest']
+    //         ->getInvoker()
+    //         ->getStatic()
+    //         ->getMethods()
+    //         ->call(
+    //             'multiplyExact',
+    //             1234,
+    //             5678
+    //         );
+    //     $value = (int) ob_get_clean();
+    //     $this->assertEquals(7006652, $value);
+    // }
 
-    public function testMultiplyFull()
-    {
-        ob_start();
-        $this->initiatedJavaClasses['ImitateJavaLangMathTest']
-            ->getInvoker()
-            ->getStatic()
-            ->getMethods()
-            ->call(
-                'multiplyFull',
-                1234,
-                5678
-            );
-        $value = (int) ob_get_clean();
-        $this->assertEquals(7006652, $value);
-    }
+    // TODO: Java 9
+    // public function testMultiplyFull()
+    // {
+    //     ob_start();
+    //     $this->initiatedJavaClasses['ImitateJavaLangMathTest']
+    //         ->getInvoker()
+    //         ->getStatic()
+    //         ->getMethods()
+    //         ->call(
+    //             'multiplyFull',
+    //             1234,
+    //             5678
+    //         );
+    //     $value = (int) ob_get_clean();
+    //     $this->assertEquals(7006652, $value);
+    // }
 
     public function testPow()
     {
