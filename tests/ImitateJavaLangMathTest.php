@@ -95,8 +95,8 @@ class ImitateJavaLangMathTest extends Base
             ->getMethods()
             ->call(
                 'atan2',
-                1,
-                2
+                1.0,
+                2.0
             );
         $value = (double) ob_get_clean();
         $this->assertEquals(0.46364760900081, $value);
@@ -142,7 +142,7 @@ class ImitateJavaLangMathTest extends Base
             ->call(
                 'copySign',
                 0.5,
-                1
+                1.0
             );
         $value = (double) ob_get_clean();
         $this->assertEquals(0.5, $value);
@@ -484,7 +484,7 @@ class ImitateJavaLangMathTest extends Base
             ->getMethods()
             ->call(
                 'sqrt',
-                4
+                4.0
             );
         $value = (double) ob_get_clean();
         $this->assertEquals(2.0, $value);

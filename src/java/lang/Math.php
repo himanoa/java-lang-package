@@ -114,11 +114,13 @@ class Math extends _Object
      */
     public static function static_cbrt($a = null)
     {
+        $a = Extractor::realValue($a);
+
         if ($a >= 0) {
-            return pow(Extractor::realValue($a), 1 / 3);
+            return pow($a, 1 / 3);
         }
 
-        return -pow(abs(Extractor::realValue($a)), 1 / 3);
+        return -pow(abs($a), 1 / 3);
     }
 
     /**

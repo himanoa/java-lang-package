@@ -30,12 +30,12 @@ class ImitateJavaLangMathTest
         System.out.println(Math.atan2(a, b));
     }
 
-    public static void cbrt(int a)
+    public static void cbrt(float a)
     {
         System.out.println(Math.cbrt(a));
     }
 
-    public static void ceil(int a)
+    public static void ceil(float a)
     {
         System.out.println(Math.ceil(a));
     }
