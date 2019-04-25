@@ -2,7 +2,7 @@
 namespace PHPJava\Tests;
 
 use PHPJava\Core\JavaArchive;
-use PHPUnit\Framework\TestCase;
+use PHPJava\Exceptions\UnableToCatchException;
 use PHPJava\Packages\java\lang\IndexOutOfBoundsException;
 use PHPJava\Packages\java\lang\_String;
 
@@ -33,15 +33,19 @@ class ImitateJavaLangStringTest extends Base
         $this->expectException(IndexOutOfBoundsException::class);
         $this->expectExceptionMessage('String index out of range: -1');
 
-        $this->initiatedJavaClasses['ImitateJavaLangStringTest']
-            ->getInvoker()
-            ->getStatic()
-            ->getMethods()
-            ->call(
-                'charAtIndex',
-                'abc',
-                -1
-            );
+        try {
+            $this->initiatedJavaClasses['ImitateJavaLangStringTest']
+                ->getInvoker()
+                ->getStatic()
+                ->getMethods()
+                ->call(
+                    'charAtIndex',
+                    'abc',
+                    -1
+                );
+        } catch (UnableToCatchException $e) {
+            throw $e->getPrevious();
+        }
     }
 
     public function testThrowsCharAtOutOfRangeIndex()
@@ -49,15 +53,19 @@ class ImitateJavaLangStringTest extends Base
         $this->expectException(IndexOutOfBoundsException::class);
         $this->expectExceptionMessage('String index out of range: 3');
 
-        $this->initiatedJavaClasses['ImitateJavaLangStringTest']
-            ->getInvoker()
-            ->getStatic()
-            ->getMethods()
-            ->call(
-                'charAtIndex',
-                'abc',
-                3
-            );
+        try {
+            $this->initiatedJavaClasses['ImitateJavaLangStringTest']
+                ->getInvoker()
+                ->getStatic()
+                ->getMethods()
+                ->call(
+                    'charAtIndex',
+                    'abc',
+                    3
+                );
+        } catch (UnableToCatchException $e) {
+            throw $e->getPrevious();
+        }
     }
 
     public function testConcat()
