@@ -35,8 +35,7 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#abs
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#abs(double)
      */
     public static function static_abs($a = null)
     {
@@ -48,12 +47,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#acos
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#acos(double)
      */
     public static function static_acos($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return acos(Extractor::realValue($a));
     }
 
     /**
@@ -63,12 +61,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#addExact
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#addExact(int,int)
      */
     public static function static_addExact($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return Extractor::realValue($a) + Extractor::realValue($b);
     }
 
     /**
@@ -76,12 +73,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#asin
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#asin(double)
      */
     public static function static_asin($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return asin(Extractor::realValue($a));
     }
 
     /**
@@ -89,12 +85,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#atan
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#atan(double)<Paste>
      */
     public static function static_atan($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return atan(Extractor::realValue($a));
     }
 
     /**
@@ -103,12 +98,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#atan2
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#atan2(double,double)
      */
     public static function static_atan2($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return atan2(Extractor::realValue($a), Extractor::realValue($b));
     }
 
     /**
@@ -116,12 +110,17 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#cbrt
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#cbrt(double)
      */
     public static function static_cbrt($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $a = Extractor::realValue($a);
+
+        if ($a >= 0) {
+            return pow($a, 1 / 3);
+        }
+
+        return -pow(abs($a), 1 / 3);
     }
 
     /**
@@ -129,12 +128,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#ceil
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#ceil(double)
      */
     public static function static_ceil($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return ceil(Extractor::realValue($a));
     }
 
     /**
@@ -144,12 +142,14 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
      * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#copySign
      */
     public static function static_copySign($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $magnitude = Extractor::realValue($a);
+        $sign = Extractor::realValue($b);
+
+        return $sign >= 0 ? abs($magnitude) : -abs($magnitude);
     }
 
     /**
@@ -157,12 +157,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#cos
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#cos(double)
      */
     public static function static_cos($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return cos(Extractor::realValue($a));
     }
 
     /**
@@ -170,12 +169,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#cosh
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#cosh(double)
      */
     public static function static_cosh($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return cosh(Extractor::realValue($a));
     }
 
     /**
@@ -184,8 +182,7 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#decrementExact
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#decrementExact(int)
      */
     public static function static_decrementExact($a = null)
     {
@@ -197,12 +194,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#exp
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#exp(double)
      */
     public static function static_exp($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return exp(Extractor::realValue($a));
     }
 
     /**
@@ -210,12 +206,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#expm1
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#expm1(double)
      */
     public static function static_expm1($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return expm1(Extractor::realValue($a));
     }
 
     /**
@@ -223,12 +218,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floor
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#floor(double)
      */
     public static function static_floor($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return floor(Extractor::realValue($a));
     }
 
     /**
@@ -239,12 +233,14 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floorDiv
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#floorDiv(int,int)
      */
     public static function static_floorDiv($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $a = Extractor::realValue($a);
+        $b = Extractor::realValue($b);
+
+        return (int) floor($a / $b);
     }
 
     /**
@@ -255,12 +251,14 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#floorMod
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#floorMod(int,int)
      */
     public static function static_floorMod($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        $a = Extractor::realValue($a);
+        $b = Extractor::realValue($b);
+
+        return $a - static::static_floorDiv($a, $b) * $b;
     }
 
     /**
@@ -327,12 +325,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#incrementExact
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#incrementExact(int)
      */
     public static function static_incrementExact($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return Extractor::realValue($a) + 1;
     }
 
     /**
@@ -340,12 +337,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#log
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#log(double)
      */
     public static function static_log($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return log(Extractor::realValue($a));
     }
 
     /**
@@ -353,12 +349,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#log10
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#log10(double)
      */
     public static function static_log10($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return log10(Extractor::realValue($a));
     }
 
     /**
@@ -366,12 +361,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#log1p
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#log1p(double)
      */
     public static function static_log1p($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return log1p(Extractor::realValue($a));
     }
 
     /**
@@ -383,12 +377,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#max
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#max(double,double)
      */
     public static function static_max($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return max(Extractor::realValue($a), Extractor::realValue($b));
     }
 
     /**
@@ -400,12 +393,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#min
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#min(double,double)
      */
     public static function static_min($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return min(Extractor::realValue($a), Extractor::realValue($b));
     }
 
     /**
@@ -416,12 +408,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#multiplyExact
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#multiplyExact(int,int)
      */
     public static function static_multiplyExact($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return Extractor::realValue($a) * Extractor::realValue($b);
     }
 
     /**
@@ -430,12 +421,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#multiplyFull
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#multiplyFull(int,int)
      */
     public static function static_multiplyFull($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return Extractor::realValue($a) * Extractor::realValue($b);
     }
 
     /**
@@ -515,25 +505,22 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#pow
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#pow(double,double)
      */
     public static function static_pow($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return pow(Extractor::realValue($a), Extractor::realValue($b));
     }
 
     /**
      * Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.
      *
-     * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#random
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#random()
      */
-    public static function static_random($a = null)
+    public static function static_random()
     {
-        throw new NotImplementedException(__METHOD__);
+        return mt_rand() / mt_getrandmax();
     }
 
     /**
@@ -555,12 +542,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#round
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#round(double)
      */
     public static function static_round($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return round(Extractor::realValue($a));
     }
 
     /**
@@ -597,12 +583,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sin
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#sin(double)
      */
     public static function static_sin($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return sin(Extractor::realValue($a));
     }
 
     /**
@@ -610,12 +595,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sinh
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#sinh(double)
      */
     public static function static_sinh($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return sinh(Extractor::realValue($a));
     }
 
     /**
@@ -623,12 +607,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#sqrt
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#sqrt(double)
      */
     public static function static_sqrt($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return sqrt(Extractor::realValue($a));
     }
 
     /**
@@ -638,12 +621,11 @@ class Math extends _Object
      * @param mixed $a
      * @param mixed $b
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#subtractExact
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#subtractExact(int,int)
      */
     public static function static_subtractExact($a = null, $b = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return Extractor::realValue($a) - Extractor::realValue($b);
     }
 
     /**
@@ -651,12 +633,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#tan
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#tan(double)
      */
     public static function static_tan($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return tan(Extractor::realValue($a));
     }
 
     /**
@@ -664,12 +645,11 @@ class Math extends _Object
      *
      * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#tanh
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#tanh(double)
      */
     public static function static_tanh($a = null)
     {
-        throw new NotImplementedException(__METHOD__);
+        return tanh(Extractor::realValue($a));
     }
 
     /**
