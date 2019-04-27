@@ -10,6 +10,13 @@ class ImitateJavaLangStringTest
         System.out.print(a.concat(b));
     }
 
+    public static void intern()
+    {
+        System.out.print("HELLO".hashCode());
+        System.out.print(" ");
+        System.out.print("hello".toUpperCase().hashCode());
+    }
+
     public static void replace(String a, String b, String c)
     {
         System.out.print(a.replace(b, c));

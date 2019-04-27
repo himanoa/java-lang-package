@@ -21,6 +21,12 @@ class _String extends _Object implements CharSequence
 {
     private $object = null;
 
+    private static function from($a = null)
+    {
+        static $intern = [];
+        return $intern[$a] ?? ($intern[$a] = new static($a));
+    }
+
     /**
      * A Comparator that orders String objects as by compareToIgnoreCase.
      *
@@ -159,7 +165,7 @@ class _String extends _Object implements CharSequence
      */
     public function concat($a = null)
     {
-        return new static($this . $a);
+        return static::from($this . $a);
     }
 
     /**
@@ -302,19 +308,6 @@ class _String extends _Object implements CharSequence
     }
 
     /**
-     * Returns a hash code for this string.
-     *
-     * @param mixed $a
-     * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#hashCode
-     */
-    public function hashCode($a = null)
-    {
-        throw new NotImplementedException(__METHOD__);
-    }
-
-    /**
      * Returns the index within this string of the first occurrence of the specified character.
      * Returns the index within this string of the first occurrence of the specified character, starting the search at the specified index.
      * Returns the index within this string of the first occurrence of the specified substring.
@@ -334,14 +327,12 @@ class _String extends _Object implements CharSequence
     /**
      * Returns a canonical representation for the string object.
      *
-     * @param mixed $a
      * @return mixed
-     * @throws NotImplementedException
-     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html#intern
+     * @see https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#intern()
      */
-    public function intern($a = null)
+    public function intern()
     {
-        throw new NotImplementedException(__METHOD__);
+        return static::from($this);
     }
 
     /**
@@ -497,7 +488,7 @@ class _String extends _Object implements CharSequence
      */
     public function replace($a = null, $b = null)
     {
-        return new static(str_replace($a, $b, $this));
+        return static::from(str_replace($a, $b, $this));
     }
 
     /**
@@ -655,7 +646,7 @@ class _String extends _Object implements CharSequence
             throw new NotImplementedException(__METHOD__);
         }
 
-        return new static(strtolower($this));
+        return static::from(strtolower($this));
     }
 
     /**
@@ -686,7 +677,7 @@ class _String extends _Object implements CharSequence
             throw new NotImplementedException(__METHOD__);
         }
 
-        return new static(strtoupper($this));
+        return static::from(strtoupper($this));
     }
 
     /**
